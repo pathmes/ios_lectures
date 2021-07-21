@@ -1,0 +1,143 @@
+---
+title: "Cohort Studies"
+author: "Prof A Pathmeswaran"
+date: "2021/07/22"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Cohort
+```{r, echo=FALSE, out.width="100%", fig.cap="Roman soldiers - usually march forward"}
+knitr::include_graphics("figures/cohort_grimes2002.png")
+```
+##### Image from - Grimes, D. A., & Schulz, K. F. (2002). Cohort studies: Marching towards outcomes. The Lancet, 359(9303), 341–345.
+
+## Cohort Study - Outline
+
+```{r, echo=FALSE, out.width="200%", fig.cap=""}
+knitr::include_graphics("figures/cohort_outline.png")
+```
+
+## Cohort Studies
+1. Go forward from exposure to outcome - prospective
+    + How does this compare with case-control studies?
+2. Usually two or more groups are followed up
+    + Occupational groups/ professional categories
+    + Geographically identified
+    + Birth cohort, obstetric cohort
+2. Possible to calculate incidence rate
+3. Possible to calculate risk ratio/ relative risk
+
+## Steps in Cohort Studies
+- Define exposure, period of follow up and outcome
+- Determine sample size
+- Assemble the cohorts (selection based on exposure)
+- Exposure assessment (records, interviews, tests etc.)
+- Follow up
+- Identify and count new cases
+- Calculate incidence rate
+- Calculate relative risk
+
+## Relative Risk
+Strength of association between the exposure and outcome is given by the relative risk
+
+$$ Relative\ Risk = \frac{Incidence\ Rate_{Exposed}}{Incidence\ Rate_{Unexposed}} $$
+  
+- Relative Risk (RR) can range from Zero to Infinity
+    + RR < 1; Protective factor
+    + RR = 1; No association  
+    + RR > 1; Risk factor
+- Check the 95% Confidence Interval
+    + What if the 95% CI include 1
+    
+## Risk Difference 1
+
+$$ Attributable\ Risk_{Exposed} = IR_{Exposed} - IR_{Unexposed} $$  
+    
+    
+
+$$ Attributable\ Fraction_{Exposed} = 
+\frac{IR_{Exposed} - IR_{Unexposed}}
+{IR_{Exposed}}$$
+
+  
+\n  
+
+
+
+
+- IR - Incidence Rate
+    
+## Risk Difference 2
+
+
+
+$$ Attributable\ Risk_{Population} = IR_{Population} - IR_{Unexposed} $$  
+  
+    
+    
+
+$$ Attributable\ Fraction_{Population} = 
+\frac{IR_{Population} - IR_{Unexposed}}
+{IR_{Population}}$$
+
+- IR - Incidence Rate    
+    
+## Practical Considerations
+- Recruitment – location, occupational group, birth cohort, etc. 	Representativeness?
+- Sampling & sample size
+- Adequate number of outcomes
+- Reasonable duration of follow up
+- Document exposure status (multiple factors possible)
+- Ascertain outcome (can be more than one outcome)
+
+## Baseline Assessment
+- Age, sex, education, income, etc. – self report & documents
+- Habits/ behavior
+- Scales/ questionnaires
+- Anthropometry – measurements
+- Hematology, biochemistry, imaging etc.
+- **Should be free of the outcome at the time of enrollment**
+
+- Storage of biological material?
+- Data entry and storage?
+
+## Outcome Assessment
+- Regular follow up – personal visits/ telephone
+- Periodic follow up
+    + Blinding?
+- Record linkage – health service records or vital registration
+
+  
+
+## Modifications
+- What is a retrospective cohort study? Isn't this a contradiction? 
+    + The cohort is assembled retrospectively (i.e. Ragama first batch!)
+    
+- What is an ambidirectional cohort study?
+    + Assemble a retrospective cohort and then follow up into the future.
+    
+## Cohort Studies - Advantages
+- Can calculate the incidence rate & relative risk
+- Identify natural history
+- Exposure -> Outcome - temporal relationship
+- Can study multiple outcomes
+
+
+## Cohort Studies - Problems
+- Usually take a long time to complete
+- Change in exposure status
+- Loss to follow up 
+    + Differential
+    + Non-differential
+- Ethical issues
+
+
+## Study Designs - Overview
+
+```{r, echo=FALSE, out.width="100%", fig.cap=""}
+knitr::include_graphics("figures/designs.png")
+```
